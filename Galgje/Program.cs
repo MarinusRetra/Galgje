@@ -13,15 +13,19 @@
        {
             Console.WriteLine("Met hoeveel speel je?");
 
+            //als je geen nummer invoert wordt aantalSpelers op 1 gezet
+            //anders match aantal spelers het ingevoerde nummer
             if (!Int32.TryParse(Console.ReadLine(), out int aantalSpelers))
             { 
                 aantalSpelers = 1;
             }
-            Console.Clear();
 
             Speler[] Spelers = Speler.MaakSpelers(aantalSpelers);
             GameManager game = new GameManager();
-            
+            Console.Clear();
+
+            //print alles correct naar het scherm en gaat naar de volgende speler als
+            //de vorige geen kansen meer heeft
             for (int i = 0; i < Spelers.Count(); i++)
             {
                 while (Spelers[i].Kansen > 0)
@@ -35,8 +39,12 @@
                 }
                 Console.SetCursorPosition(0, 8);
                 Console.WriteLine($"Speler {Spelers[i].SpelerNummer} heeft verloren");
+                //je verliest als je kansen op zijn
             }
             Console.ReadLine();
+            Console.Clear();
+            Main(args);
+            //restart de game
        }
    }
 }
