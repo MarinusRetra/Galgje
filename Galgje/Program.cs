@@ -12,7 +12,15 @@
    {
        static void Main(string[] args)
        {
-            Speler[] Spelers = Speler.MaakSpelers(4);
+            Console.WriteLine("Met hoeveel speel je?");
+
+            if (!Int32.TryParse(Console.ReadLine(), out int aantalSpelers))
+            { 
+                aantalSpelers = 1;
+            }
+            Console.Clear();
+
+            Speler[] Spelers = Speler.MaakSpelers(aantalSpelers);
             GameManager game = new GameManager();
             int repeats = Spelers[0].Kansen;
             
@@ -24,7 +32,6 @@
                     Console.SetCursorPosition(0, 2);
                     Spelers[i].Raad();
                     game.DisplayGame(Spelers[i]);
-                   // Console.ReadKey();
                     Console.Clear();
                 }
             }
