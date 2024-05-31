@@ -1,0 +1,14 @@
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\bin\Debug\net8.0\Galgje.exe
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\bin\Debug\net8.0\Galgje.deps.json
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\bin\Debug\net8.0\Galgje.runtimeconfig.json
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\bin\Debug\net8.0\Galgje.dll
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\bin\Debug\net8.0\Galgje.pdb
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.AssemblyInfoInputs.cache
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.AssemblyInfo.cs
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.csproj.CoreCompileInputs.cache
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.dll
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\refint\Galgje.dll
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.pdb
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.genruntimeconfig.cache
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\ref\Galgje.dll
