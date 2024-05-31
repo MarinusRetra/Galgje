@@ -48,7 +48,15 @@ public class GameManager
 		{
 			if (Woord.ToCharArray().Contains(spelerIn.genoemdeLetters[i]))
 			{
-				q++;
+				for (int v = 0; v < Woord.ToCharArray().Length; v++)
+				{
+					if (Woord.ToCharArray()[v] == spelerIn.genoemdeLetters[i])
+					{ // deze extra for loop en if statement zijn voor wanneer er vaker
+				      // dezelfde letter voorkomt
+						q++;
+					}
+				  
+				}
 			}
 			if (q == Woord.Length)
 			{

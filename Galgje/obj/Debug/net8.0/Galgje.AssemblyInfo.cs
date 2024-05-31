@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Galgje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85e1f3c5b9720bac1a362e1196737f1a3662d055")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+468dd4283160c3b2ca50043578e411b2cb8f7ad1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Galgje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Galgje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

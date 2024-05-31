@@ -16,7 +16,10 @@ public class Speler
 	public void Raad()
 	{
         char charRead = Console.ReadKey().KeyChar;
-	    genoemdeLetters.Add(charRead);
+		if (!genoemdeLetters.Contains(charRead))
+		{ 
+			genoemdeLetters.Add(charRead);
+		}
 		if (!GameManager.Woord.Contains(charRead))
 		{ 
 			Kansen--;
