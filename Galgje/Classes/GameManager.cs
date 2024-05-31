@@ -3,8 +3,8 @@ using System.Linq.Expressions;
 
 public class GameManager
 {
-	public string Woord { get; private set; }
-	string[] woordenLijst = new string[] {"Computer", "Kat", "KitKat", "Snicker"};
+	public static string Woord { get; private set; }
+	string[] woordenLijst = new string[] {"computer", "kat", "kitkat", "snicker"};
 	static Random random = new Random();
 	public GameManager()
 	{

@@ -16,15 +16,15 @@
             GameManager game = new GameManager();
             int repeats = Spelers[0].Kansen;
             
-            for (int i = 0; i <= repeats-1; i++)
+            for (int i = 0; i < Spelers.Count(); i++)
             {
-                foreach (var S in Spelers)
+                while (Spelers[i].Kansen > 0)
                 {
-                    game.DisplayGame(S);
+                    game.DisplayGame(Spelers[i]);
                     Console.SetCursorPosition(0, 2);
-                    S.Raad();
-                    game.DisplayGame(S);
-                    Console.ReadKey();
+                    Spelers[i].Raad();
+                    game.DisplayGame(Spelers[i]);
+                   // Console.ReadKey();
                     Console.Clear();
                 }
             }

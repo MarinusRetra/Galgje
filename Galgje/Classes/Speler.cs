@@ -6,7 +6,7 @@ public class Speler
 	public int SpelerNummer { get; private set; }
 	public bool GameOver {  get; private set; } = false;
 
-	public List<char> genoemdeLetters = new List<char>();
+	public List<char> genoemdeLetters = new List<char>() { };
     public Speler(int kansenIn, int spelerNummerIn)
 	{
 		Kansen = kansenIn;
@@ -17,7 +17,10 @@ public class Speler
 	{
         char charRead = Console.ReadKey().KeyChar;
 	    genoemdeLetters.Add(charRead);
-		Kansen--;
+		if (!GameManager.Woord.Contains(charRead))
+		{ 
+			Kansen--;
+		}
     }
 
 	public static Speler[] MaakSpelers(int aantalSpelers)
