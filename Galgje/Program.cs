@@ -24,10 +24,11 @@
                     Console.SetCursorPosition(0, 2);
                     S.Raad();
                     game.DisplayGame(S);
+                    Console.ReadKey();
+                    Console.Clear();
                 }
             }
             Console.ReadLine();
-            
        }
    }
 }

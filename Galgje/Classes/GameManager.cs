@@ -20,7 +20,6 @@ public class GameManager
 				if (spelerIn.genoemdeLetters[j] == Woord.ToCharArray().ElementAt(i))
 				{
 					Console.Write(spelerIn.genoemdeLetters[j]);
-
                 }
             }
 			//als genoemdeLetters geen letter van het woord bevat print _
