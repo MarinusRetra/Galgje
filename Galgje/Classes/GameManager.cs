@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq.Expressions;
+using System.Linq;
 
 public class GameManager
 {
@@ -40,4 +40,22 @@ public class GameManager
             Console.SetCursorPosition(q, 2);
         }
     }
+
+	public static void CheckWin(Speler spelerIn)
+	{
+		int q = 0;
+		for (int i = 0; i < spelerIn.genoemdeLetters.Count; i++)
+		{
+			if (Woord.ToCharArray().Contains(spelerIn.genoemdeLetters[i]))
+			{
+				q++;
+			}
+			if (q == Woord.Length)
+			{
+				Console.WriteLine($"Speler {spelerIn.SpelerNummer} Heeft Gewonnen!");
+				Console.ReadKey();
+				Environment.Exit(0);
+			}
+		}
+	}
 }
