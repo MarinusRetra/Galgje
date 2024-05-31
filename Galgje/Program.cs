@@ -14,11 +14,17 @@
        {
             Speler[] Spelers = Speler.MaakSpelers(4);
             GameManager game = new GameManager();
+            int repeats = Spelers[0].Kansen;
             
-            foreach (var S in Spelers)
+            for (int i = 0; i <= repeats-1; i++)
             {
-                game.DisplayGame(S.Raad());
-                // Console.WriteLine(S);
+                foreach (var S in Spelers)
+                {
+                    game.DisplayGame(S);
+                    Console.SetCursorPosition(0, 2);
+                    S.Raad();
+                    game.DisplayGame(S);
+                }
             }
             Console.ReadLine();
             

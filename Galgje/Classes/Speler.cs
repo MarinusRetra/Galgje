@@ -5,18 +5,20 @@ public class Speler
 	public int Kansen { get; private set;}
 	public int SpelerNummer { get; private set; }
 	public bool GameOver {  get; private set; } = false;
-	public Speler(int kansenIn, int spelerNummerIn)
+
+	public List<char> genoemdeLetters = new List<char>();
+    public Speler(int kansenIn, int spelerNummerIn)
 	{
 		Kansen = kansenIn;
 		SpelerNummer = spelerNummerIn;
 	}
 
-	public char Raad()
+	public void Raad()
 	{
-		char charRead = Console.ReadKey().KeyChar;
+        char charRead = Console.ReadKey().KeyChar;
+	    genoemdeLetters.Add(charRead);
 		Kansen--;
-		return charRead;
-	}
+    }
 
 	public static Speler[] MaakSpelers(int aantalSpelers)
 	{
@@ -30,6 +32,6 @@ public class Speler
 
     public override string ToString()
     {
-        return $"Speler{SpelerNummer} Kansen: {Kansen}";
+        return $"Speler{SpelerNummer} Kansen Over: {Kansen}";
     }
 }

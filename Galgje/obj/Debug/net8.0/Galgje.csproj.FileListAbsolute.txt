@@ -12,3 +12,4 @@ C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8
 C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.pdb
 C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.genruntimeconfig.cache
 C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\ref\Galgje.dll
+C:\Users\marin\OneDrive\Desktop\Projecten\C#\Galgje\Galgje\Galgje\obj\Debug\net8.0\Galgje.sourcelink.json
